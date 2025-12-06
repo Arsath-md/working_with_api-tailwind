@@ -19,6 +19,9 @@ A simple web app that fetches random cat facts using a free public API and style
 **CatFact Ninja API**  
 https://catfact.ninja/fact
 
+**LIVE WEBSITE** 
+https://arsath-md.github.io/working_with_api-tailwind
+
 Response Example:
 
 ```json
@@ -26,5 +29,3 @@ Response Example:
   "fact": "Cats sleep 70% of their lives.",
 }
 
-LIVE WEBSITE:
- https://arsath-md.github.io/working_with_api-tailwind
