@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>working with the apis</title>
+     <script src="https://cdn.tailwindcss.com" ></script>
 </head>
-<body>
-    <h1 id="chg">the new page is here</h1>
-    <button id="btn">click to change</button>
+<body >
+    <div class="flex min-h-screen justify-center items-center flex-col text-center " style="background: url('./assets/cat.png');
+    background-repeat: no-repeat;background-size: cover;background-position:center;">
+
+            <div class="flex flex-col rounded w-fit p-24">
+                <h1  class="font-extrabold p-4 text-white text-3xl">Cats facts</h1>
+                 <button class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:shadow-lg hover:shadow-blue-500/10 active:shadow-blue-500/100 font-semibold"  id="btn">
+                  Facts
+                 </button>
+            </div>
+               <div class="p-8 text-white text-lg text-center" id="fact">
+                    Here fact is.........
+                 </div>
+
+    </div>
+  
     <script src="script.js"></script>
 </body>
 </html>
